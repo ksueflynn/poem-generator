@@ -7,36 +7,42 @@
     <title>AI London Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI London Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI London Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the name of your favorite London landmark"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the name of your favorite London landmark"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here<br />
+          The poem will go here
+        </div>
+      </main>
 
-      The poem will go here<br />
-      The poem will go here
-    </main>
-
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/ksueflynn" target="_blank"> Kelsey Flynn</a>
-      and is open-sourced on
-      <a href="https://github.com/ksueflynn/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on <a href="" target="_blank">UPDATE UPDATENetlify</a>
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ksueflynn" target="_blank"> Kelsey Flynn</a>
+        and is open-sourced on
+        <a href="https://github.com/ksueflynn/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://london-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
