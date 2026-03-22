@@ -47,13 +47,14 @@ form {
 }
 
 .instructions {
-  padding: 16px;
+  padding: 18px;
   border: 1px solid rgba(191, 193, 196, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
   color: #272044;
+  font-family: "EB Garamond", serif;
 }
 
 .submit-button {
@@ -65,10 +66,17 @@ form {
   border-radius: 50px;
   padding: 14px 24px;
   font-size: 16px;
+  font-family: "EB Garamond", serif;
+}
+
+.submit-button:hover {
+  background-color: #7a0a1a;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .poem {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #f5f0e8;
   color: #1a1a2e;
   padding: 20px;
