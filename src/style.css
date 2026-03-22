@@ -1,10 +1,10 @@
 body {
-  background-color: #edd4f5;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0e8;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
-  color: #c492d4;
+  color: #1c4a6e;
 }
 .container {
   margin: 120px auto;
@@ -13,6 +13,7 @@ a {
 
 header {
   margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -20,24 +21,34 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #fc5604;
+  color: #c8102e;
+}
+
+.form-container {
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
 }
 
 main {
 }
 
 form {
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
   display: flex;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
+  opacity: 0.6;
 }
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(29, 33, 66, 0.5);
+  border: 1px solid rgba(191, 193, 196, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -47,8 +58,8 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background-color: #c8a4d4;
-  color: white;
+  background-color: #c8102e;
+  color: #f5f0e8;
   border: none;
   width: 150px;
   border-radius: 50px;
@@ -57,20 +68,27 @@ form {
 }
 
 .poem {
-  font-size: 16px;
-  background-color: white;
+  font-size: 20px;
+  background-color: #f5f0e8;
+  color: #1a1a2e;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #c8a4d4;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+  border-left: 3px solid #1c4a6e;
+  box-shadow: 0px 20px 60px rgba(191, 193, 196, 0.5);
+  font-family: "EB Garamond", serif;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem strong {
-  color: #c8a4d4;
+  color: #b5930a;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+  color: #6b6b6b;
 }
