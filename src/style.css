@@ -94,6 +94,22 @@ form {
   color: #b5930a;
 }
 
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 footer {
   text-align: center;
   font-size: 13px;
